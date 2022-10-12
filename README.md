@@ -8,3 +8,5 @@ Bienvenido a Arkaminion, para hacer feliz a Gru, tendras que destruir todos los 
 Controles:
 Lanzar pelota: Tecla Espacio
 Mover a jugadores: A y flecha izq para mover a la izquierda, D y flecha a la der para mover a la derecha
+
+El juego se encuentra dentro la carpeta "Juego"
