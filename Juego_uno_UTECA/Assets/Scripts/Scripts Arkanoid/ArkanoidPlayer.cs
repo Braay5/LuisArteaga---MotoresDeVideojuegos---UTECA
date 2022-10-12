@@ -6,7 +6,7 @@ public class ArkanoidPlayer : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
 
-    private float bounds = 6.6f;
+    private float bounds = 2.3f;
 
     // Update is called once per frame
     void Update()

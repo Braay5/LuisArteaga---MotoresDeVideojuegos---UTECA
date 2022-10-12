@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/InicioArkanoid.unity
+    guid: 4dcaa274c53f225409db5210b0f8f698
+  - enabled: 1
+    path: Assets/Scenes/Arkanoid2.unity
+    guid: 71598be89fb15524d8d1240c419064f0
+  - enabled: 1
+    path: Assets/Scenes/Arkanoid1.unity
+    guid: 369ea200973a68444a3b40bbb2a1ca9f
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

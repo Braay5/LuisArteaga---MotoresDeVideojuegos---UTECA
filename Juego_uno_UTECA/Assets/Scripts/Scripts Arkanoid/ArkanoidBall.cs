@@ -36,6 +36,27 @@ public class ArkanoidBall : MonoBehaviour
         if (collision.gameObject.CompareTag("Bloque"))
         {
             Destroy(collision.gameObject);
+            GameManagerArkanoid.Instance.BlockDestroyed();
+            CambiaDeDireccion();
+
+        }
+    }
+
+    private void CambiaDeDireccion()
+    {
+        float velocidadDelta = 0.5f;
+        float minimaVleocidad = 0.2f;
+
+        if(Mathf.Abs(ballRb.velocity.x) < minimaVleocidad)
+        {
+            velocidadDelta = Random.value < 0.5f ? velocidadDelta : -velocidadDelta;
+            ballRb.velocity += new Vector2(velocidadDelta, 0f);
+        }
+
+        if(Mathf.Abs(ballRb.velocity.y) < minimaVleocidad)
+        {
+            velocidadDelta = Random.value < 0.5 ? velocidadDelta : -velocidadDelta;
+            ballRb.velocity += new Vector2(0f, velocidadDelta);
         }
     }
 }

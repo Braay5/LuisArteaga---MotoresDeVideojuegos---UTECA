@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: 6dc7fea1618fc6a49b107c0e94028fe0
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -788621927982716891
+    second: Wolverine_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -194,6 +197,27 @@ TextureImporter:
       bones: []
       spriteID: 9ffb29a0e19db96a0800000000000000
       internalID: -6441316118973726727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_0
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 42
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528a188e8804e05f0800000000000000
+      internalID: -788621927982716891
       vertices: []
       indices: 
       edges: []
