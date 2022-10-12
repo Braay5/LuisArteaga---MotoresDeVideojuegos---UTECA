@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SiTePasasPierdes : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        GameManagerArkanoid.Instance.ReloadScene();
+        SceneManager.LoadScene(3);
     }
+
 }

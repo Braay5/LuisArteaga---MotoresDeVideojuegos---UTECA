@@ -12,6 +12,11 @@ public class ArkanoidPlayer : MonoBehaviour
     void Update()
     {
         Movimiento();
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            CerrarJuego();
+        }
     }
 
     private void Movimiento()
@@ -21,5 +26,10 @@ public class ArkanoidPlayer : MonoBehaviour
         Vector2 playerPosition = transform.position;
         playerPosition.x = Mathf.Clamp(playerPosition.x + moveInput * moveSpeed * Time.deltaTime, -bounds, bounds);
         transform.position = playerPosition;
+    }
+
+    private void CerrarJuego()
+    {
+        Application.Quit();
     }
 }
