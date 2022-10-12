@@ -1,31 +1,7 @@
 fileFormatVersion: 2
-guid: 031c9e774bf313a498c5df276e05cf60
+guid: 6dc7fea1618fc6a49b107c0e94028fe0
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -2021947560967536347
-    second: Cuadrados Arkanoid_2
-  - first:
-      213: 2790594802657859076
-    second: Cuadrados Arkanoid_1
-  - first:
-      213: -5281246281489385292
-    second: Cuadrados Arkanoid_3
-  - first:
-      213: -783405176293188846
-    second: Cuadrados Arkanoid_4
-  - first:
-      213: -5942595213097339551
-    second: Cuadrados Arkanoid_5
-  - first:
-      213: 2724161428916589046
-    second: Cuadrados Arkanoid_6
-  - first:
-      213: -2259321882862270037
-    second: Cuadrados Arkanoid_7
-  - first:
-      213: -9102264100224253595
-    second: Cuadrados Arkanoid_8
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -71,7 +47,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 335, y: 154, z: 754, w: 423}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -139,34 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cuadrados Arkanoid_2
+      name: 3c733548a32b2f9c0405e7dbf5292a8a_0
       rect:
         serializedVersion: 2
-        x: 474
-        y: 154
-        width: 110
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 1, z: 97, w: 49}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5210012f76990f3e0800000000000000
-      internalID: -2021947560967536347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cuadrados Arkanoid_1
-      rect:
-        serializedVersion: 2
-        x: 614
-        y: 152
-        width: 111
-        height: 55
+        x: 209
+        y: 338
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4061974103f2ab620800000000000000
-      internalID: 2790594802657859076
+      spriteID: 5edfe767bca6b7290800000000000000
+      internalID: -7891596499937722907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cuadrados Arkanoid_3
+      name: 3c733548a32b2f9c0405e7dbf5292a8a_1
       rect:
         serializedVersion: 2
-        x: 754
-        y: 152
-        width: 111
-        height: 55
+        x: 237
+        y: 352
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,41 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b8f87cfc7e35b6b0800000000000000
-      internalID: -5281246281489385292
+      spriteID: 045388184510fb480800000000000000
+      internalID: -8881378477689260736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cuadrados Arkanoid_4
+      name: 3c733548a32b2f9c0405e7dbf5292a8a_2
       rect:
         serializedVersion: 2
-        x: 894
-        y: 153
-        width: 111
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 4}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21b97df8429c025f0800000000000000
-      internalID: -783405176293188846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cuadrados Arkanoid_5
-      rect:
-        serializedVersion: 2
-        x: 1037
-        y: 154
-        width: 108
-        height: 53
+        x: 209
+        y: 295
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 165756f8329a78da0800000000000000
-      internalID: -5942595213097339551
+      spriteID: 1516ea309124d0fa0800000000000000
+      internalID: -5832933267171548847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cuadrados Arkanoid_6
+      name: 3c733548a32b2f9c0405e7dbf5292a8a_3
       rect:
         serializedVersion: 2
-        x: 335
-        y: 152
-        width: 110
-        height: 55
+        x: 237
+        y: 381
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,50 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f1d469e26a2ec520800000000000000
-      internalID: 2724161428916589046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cuadrados Arkanoid_7
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 152
-        width: 112
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba94abac7b645a0e0800000000000000
-      internalID: -2259321882862270037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cuadrados Arkanoid_8
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 152
-        width: 111
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 561c756d6034ea180800000000000000
-      internalID: -9102264100224253595
+      spriteID: 9ffb29a0e19db96a0800000000000000
+      internalID: -6441316118973726727
       vertices: []
       indices: 
       edges: []

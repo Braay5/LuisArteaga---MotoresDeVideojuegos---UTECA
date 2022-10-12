@@ -30,4 +30,12 @@ public class ArkanoidBall : MonoBehaviour
         ballRb.velocity = initialVelocity;
         isBallMoving = true;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Bloque"))
+        {
+            Destroy(collision.gameObject);
+        }
+    }
 }
